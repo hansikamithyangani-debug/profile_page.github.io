@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Order Tracking Dashboard</title>
+
+    <style>
+        body {
+            font-family: "Times New Roman", serif;
+        }
+
+        .dashboard {
+            width: 650px;
+            border: 2px solid blue;
+            padding: 15px;
+            margin: 20px;
+        }
+
+        .order-summary {
+            border: 2px solid blue;
+            padding: 10px;
+            margin-bottom: 15px;
+        }
+
+        .order-summary h3 {
+            border: 2px solid blue;
+            padding: 8px;
+            margin: 0 0 10px 0;
+        }
+
+        .status-box {
+            border: 2px solid blue;
+            padding: 10px;
+        }
+
+        .status {
+            color: green;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<h2>Order Tracking Dashboard</h2>
+
+<div class="dashboard"><!-- Main DIV -->
+
+    <div class="order-summary"><!-- DIV -->
+        <h3>Order Summary (P-7721)</h3>
+        <p>Client: Jane Doe</p>
+    </div>
+
+    <div class="status-box"><!-- DIV -->
+        <p><strong>Current Status:</strong></p>
+        <p>
+            Your package is currently:
+            <span class="status">SHIPPED</span>
+        </p>
+        <p>Next action required: Confirm receipt upon arrival.</p>
+    </div>
+
+</div>
+
+</body>
+</html>
